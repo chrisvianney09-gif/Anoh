@@ -1,0 +1,230 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+header{
+    background-color: rgb(215, 242, 250);
+    position: relative;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    z-index: 1000;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+}
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+}
+.card1{
+    width: 300px;
+    height: 420px;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(31, 26, 26);
+    display: flex;
+    flex-direction: column;
+     background-image: url("/ig/dripc.jpg");
+    justify-content: flex-end;
+    gap: 8px;
+    box-shadow: 0 4px 8px rgba(227, 71, 71, 0.2);
+    }
+
+.menu_item {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.menu_item:hover {
+    color: orange;
+}
+.card2{
+    width: 300px;
+    height: 420px;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(31, 26, 26);
+    display: flex;
+    flex-direction: column;
+     background-image: url("/ig/class1.jpg");
+    justify-content: flex-end;
+    gap: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+    .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card3{
+    width: 300px;
+    height: 420px;
+    margin: 10px;
+    padding: 15px;
+    border-radius:  10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(31, 26, 26);
+    display: flex;
+    flex-direction: column;
+     background-image: url("/ig/Cos.jpg");
+    justify-content: flex-end;
+    gap: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+@keyframes zoomRotate {
+  to {
+    transform: scale(1) rotate(0);
+    opacity: 1;
+  }
+   }
+   h1 {
+  position: relative;
+  color: white;
+}
+h1 {
+    font-family:  satisfy;
+  font-size: 3em;
+  color: #fff;
+  position: relativeb;
+}
+h1 {
+  color: #fff;
+  text-shadow: 2px 2px 0 #000,
+               4px 4px 0 #333,
+               6px 6px 0 #666;
+}
+.container{
+  background-image: url(/ig/body.png);
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+p {
+  color: #fff;
+  text-shadow: 2px 2px 0 #000,
+               4px 4px 0 #333,
+               6px 6px 0 #666;
+}
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #1cbee2;
+}
+.hero {
+  height: 70vh;
+
+  background:
+    linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),;
+    background-image: url(/ig/body.png);
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding-left: 80px;
+  color: rgb(21, 4, 4);
+}
+.hero h1 {
+  font-size:48px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+}
+.hero p {
+  font-size: 20px;
+  font-weight: 300;
+  max-width: 520px;
+  line-height: 1.6;
+  opacity: 0.95;
+}
+.search-box {
+  margin-top: 30px;
+  background: rgb(167, 221, 230);
+  padding: 15px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: fit-content;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+  font-size: 15px;
+}
+
+.search-box input[type="text"] {
+  width: 180px;
+}
+
+.search-box button {
+  background: #9a5461;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 60px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 400px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+.search-box button:hover {
+  background: #e12e4c;
+}
+.search-item span {
+  font-size: 11px;
+  font-weight: 700;
+  color: #0999ac;     
+  margin-bottom: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.search-item input[type="date"] {
+  font-size: 15px;
+  color: #111;
+  background: transparent;
+}

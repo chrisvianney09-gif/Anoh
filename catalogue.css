@@ -1,0 +1,119 @@
+* {
+margin:2 0;
+padding: 0;
+box-sizing: border-box;
+}
+.img{
+    background-image: url("drip1.jpg");
+    width: 300px;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+.ig{
+    background-image: url("drip2.jpg");
+    width: 300px;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.i{
+    background-image: url("drip3.jpg");
+    width: 300px;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+body {
+background-image: url(CB.jpg);
+}
+.img{
+  transition: transform 0.5s ease-in-out;
+}
+
+.img:hover {
+  transform: scale(1.1); 
+}
+.ig{
+  transition: transform 0.5s ease-in-out;
+}
+
+.ig:hover {
+  transform: scale(1.1); 
+}
+.i{
+  transition: transform 0.5s ease-in-out;
+}
+
+.i:hover {
+  transform: scale(1.1); 
+}
+.contain {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}.y{
+    background-image: url("OC.jpg");
+    width: 300px;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+.a{
+    background-image: url("da.jpg");
+    width: 300px;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+.b{
+    background-image: url("de.jpg");
+    width: 300px;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+.y{
+  transition: transform 0.5s ease-in-out;
+}
+
+.y:hover {
+  transform: scale(1.1); 
+}
+.a{
+  transition: transform 0.5s ease-in-out;
+}
+
+.a:hover {
+  transform: scale(1.1); 
+}
+.b{
+  transition: transform 0.5s ease-in-out;
+}
+
+.b:hover {
+  transform: scale(1.1); 
+}
+h1 {
+  font-family: 'IM Fell English SC', serif;
+  color: #aeefff;
+  text-shadow: 0 0 15px #00f, 0 0 30px #0ff;
+  animation: iceShimmer 4s infinite alternate;
+}
+
+@keyframes iceShimmer {
+  from { color: #aeefff; }
+  to { color: #ffffff; text-shadow: 0 0 40px #0ff; }
+}
+h1 {
+  font-family: fantasy, cursive;
+  font-size: 64px;
+  color: #4b0082;
+  text-align: center;
+
+}
